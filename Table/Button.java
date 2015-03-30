@@ -31,6 +31,7 @@ public /*nullable_by_default*/ class Button {
     return position;
   }
 
+
   /**
    * @param newPosition the new position
    */
@@ -47,6 +48,7 @@ public /*nullable_by_default*/ class Button {
   /**
    * Next dealer.
    */
+   
   public final /*@pure@*/ void nextDealer() {
     //TODO table calculations to find next valid position.
     //@ assert false;
