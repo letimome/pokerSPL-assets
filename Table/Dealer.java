@@ -22,8 +22,6 @@ public /*nullable_by_default*/ class Dealer {
   /** The deck. */
   /*@spec_public@*/ private Deck deck = new Deck();
 
- 
-
 
   public Dealer(){
 	  initDealer();
