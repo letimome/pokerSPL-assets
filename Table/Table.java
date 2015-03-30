@@ -39,14 +39,6 @@ public /*nullable_by_default*/ class Table {
     return seats;
   }
 
-  /**
-   * @param initSeats set seats.
-   */
-  // TODO Loop through initSeats for nullity.
-  /*@ requires MIN_PLAYERS <= initSeats.length & initSeats.length <= TABLE_SIZE;
-      assignable seats;
-      ensures seats == initSeats;
-   */
   public final void setSeats(final /*@non_null@*/ int[] initSeats) {
     this.seats = initSeats;
     //@ assert false;
