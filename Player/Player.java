@@ -105,9 +105,6 @@ public /*@nullable_by_default@*/ class Player {
     //@ assert false;
   }
 
-
-
-
   /**
    * @param newCards Player's new cards.
    */
@@ -119,7 +116,6 @@ public /*@nullable_by_default@*/ class Player {
     this.cards = newCards;
    
   }
-
   /**
    * @return Player's cards.
    */
